@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAEEFF872C38BA46005B5C94 /* BLEAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEEFF862C38BA46005B5C94 /* BLEAppApp.swift */; };
+		AAEEFF892C38BA46005B5C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEEFF882C38BA46005B5C94 /* ContentView.swift */; };
+		AAEEFF8B2C38BA47005B5C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEEFF8A2C38BA47005B5C94 /* Assets.xcassets */; };
+		AAEEFF8E2C38BA47005B5C94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEEFF8D2C38BA47005B5C94 /* Preview Assets.xcassets */; };
+		AAEEFF982C38BA47005B5C94 /* BLEAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEEFF972C38BA47005B5C94 /* BLEAppTests.swift */; };
+		AAEEFFA22C38BA47005B5C94 /* BLEAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEEFFA12C38BA47005B5C94 /* BLEAppUITests.swift */; };
+		AAEEFFA42C38BA47005B5C94 /* BLEAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEEFFA32C38BA47005B5C94 /* BLEAppUITestsLaunchTests.swift */; };
+		AAF574C92C38C6F4003AA731 /* BluetoothManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF574C82C38C6F4003AA731 /* BluetoothManger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAEEFF942C38BA47005B5C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAEEFF7B2C38BA45005B5C94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAEEFF822C38BA45005B5C94;
+			remoteInfo = BLEApp;
+		};
+		AAEEFF9E2C38BA47005B5C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAEEFF7B2C38BA45005B5C94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAEEFF822C38BA45005B5C94;
+			remoteInfo = BLEApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAEEFF832C38BA46005B5C94 /* BLEApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEEFF862C38BA46005B5C94 /* BLEAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEAppApp.swift; sourceTree = "<group>"; };
+		AAEEFF882C38BA46005B5C94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAEEFF8A2C38BA47005B5C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAEEFF8D2C38BA47005B5C94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAEEFF932C38BA47005B5C94 /* BLEAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEEFF972C38BA47005B5C94 /* BLEAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEAppTests.swift; sourceTree = "<group>"; };
+		AAEEFF9D2C38BA47005B5C94 /* BLEAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEEFFA12C38BA47005B5C94 /* BLEAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEAppUITests.swift; sourceTree = "<group>"; };
+		AAEEFFA32C38BA47005B5C94 /* BLEAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAF574C82C38C6F4003AA731 /* BluetoothManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAEEFF802C38BA45005B5C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEEFF902C38BA47005B5C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEEFF9A2C38BA47005B5C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAEEFF7A2C38BA45005B5C94 = {
+			isa = PBXGroup;
+			children = (
+				AAEEFF852C38BA46005B5C94 /* BLEApp */,
+				AAEEFF962C38BA47005B5C94 /* BLEAppTests */,
+				AAEEFFA02C38BA47005B5C94 /* BLEAppUITests */,
+				AAEEFF842C38BA46005B5C94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAEEFF842C38BA46005B5C94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAEEFF832C38BA46005B5C94 /* BLEApp.app */,
+				AAEEFF932C38BA47005B5C94 /* BLEAppTests.xctest */,
+				AAEEFF9D2C38BA47005B5C94 /* BLEAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAEEFF852C38BA46005B5C94 /* BLEApp */ = {
+			isa = PBXGroup;
+			children = (
+				AAF574C72C38C6E3003AA731 /* Model */,
+				AAEEFF862C38BA46005B5C94 /* BLEAppApp.swift */,
+				AAEEFF882C38BA46005B5C94 /* ContentView.swift */,
+				AAEEFF8A2C38BA47005B5C94 /* Assets.xcassets */,
+				AAEEFF8C2C38BA47005B5C94 /* Preview Content */,
+			);
+			path = BLEApp;
+			sourceTree = "<group>";
+		};
+		AAEEFF8C2C38BA47005B5C94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAEEFF8D2C38BA47005B5C94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAEEFF962C38BA47005B5C94 /* BLEAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAEEFF972C38BA47005B5C94 /* BLEAppTests.swift */,
+			);
+			path = BLEAppTests;
+			sourceTree = "<group>";
+		};
+		AAEEFFA02C38BA47005B5C94 /* BLEAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAEEFFA12C38BA47005B5C94 /* BLEAppUITests.swift */,
+				AAEEFFA32C38BA47005B5C94 /* BLEAppUITestsLaunchTests.swift */,
+			);
+			path = BLEAppUITests;
+			sourceTree = "<group>";
+		};
+		AAF574C72C38C6E3003AA731 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAF574C82C38C6F4003AA731 /* BluetoothManger.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAEEFF822C38BA45005B5C94 /* BLEApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEEFFA72C38BA47005B5C94 /* Build configuration list for PBXNativeTarget "BLEApp" */;
+			buildPhases = (
+				AAEEFF7F2C38BA45005B5C94 /* Sources */,
+				AAEEFF802C38BA45005B5C94 /* Frameworks */,
+				AAEEFF812C38BA45005B5C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEApp;
+			productName = BLEApp;
+			productReference = AAEEFF832C38BA46005B5C94 /* BLEApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAEEFF922C38BA47005B5C94 /* BLEAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEEFFAA2C38BA47005B5C94 /* Build configuration list for PBXNativeTarget "BLEAppTests" */;
+			buildPhases = (
+				AAEEFF8F2C38BA47005B5C94 /* Sources */,
+				AAEEFF902C38BA47005B5C94 /* Frameworks */,
+				AAEEFF912C38BA47005B5C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAEEFF952C38BA47005B5C94 /* PBXTargetDependency */,
+			);
+			name = BLEAppTests;
+			productName = BLEAppTests;
+			productReference = AAEEFF932C38BA47005B5C94 /* BLEAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAEEFF9C2C38BA47005B5C94 /* BLEAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEEFFAD2C38BA47005B5C94 /* Build configuration list for PBXNativeTarget "BLEAppUITests" */;
+			buildPhases = (
+				AAEEFF992C38BA47005B5C94 /* Sources */,
+				AAEEFF9A2C38BA47005B5C94 /* Frameworks */,
+				AAEEFF9B2C38BA47005B5C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAEEFF9F2C38BA47005B5C94 /* PBXTargetDependency */,
+			);
+			name = BLEAppUITests;
+			productName = BLEAppUITests;
+			productReference = AAEEFF9D2C38BA47005B5C94 /* BLEAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAEEFF7B2C38BA45005B5C94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AAEEFF822C38BA45005B5C94 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AAEEFF922C38BA47005B5C94 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AAEEFF822C38BA45005B5C94;
+					};
+					AAEEFF9C2C38BA47005B5C94 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AAEEFF822C38BA45005B5C94;
+					};
+				};
+			};
+			buildConfigurationList = AAEEFF7E2C38BA45005B5C94 /* Build configuration list for PBXProject "BLEApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAEEFF7A2C38BA45005B5C94;
+			productRefGroup = AAEEFF842C38BA46005B5C94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAEEFF822C38BA45005B5C94 /* BLEApp */,
+				AAEEFF922C38BA47005B5C94 /* BLEAppTests */,
+				AAEEFF9C2C38BA47005B5C94 /* BLEAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAEEFF812C38BA45005B5C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEEFF8E2C38BA47005B5C94 /* Preview Assets.xcassets in Resources */,
+				AAEEFF8B2C38BA47005B5C94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEEFF912C38BA47005B5C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEEFF9B2C38BA47005B5C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAEEFF7F2C38BA45005B5C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF574C92C38C6F4003AA731 /* BluetoothManger.swift in Sources */,
+				AAEEFF892C38BA46005B5C94 /* ContentView.swift in Sources */,
+				AAEEFF872C38BA46005B5C94 /* BLEAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEEFF8F2C38BA47005B5C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEEFF982C38BA47005B5C94 /* BLEAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEEFF992C38BA47005B5C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEEFFA42C38BA47005B5C94 /* BLEAppUITestsLaunchTests.swift in Sources */,
+				AAEEFFA22C38BA47005B5C94 /* BLEAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAEEFF952C38BA47005B5C94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAEEFF822C38BA45005B5C94 /* BLEApp */;
+			targetProxy = AAEEFF942C38BA47005B5C94 /* PBXContainerItemProxy */;
+		};
+		AAEEFF9F2C38BA47005B5C94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAEEFF822C38BA45005B5C94 /* BLEApp */;
+			targetProxy = AAEEFF9E2C38BA47005B5C94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAEEFFA52C38BA47005B5C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAEEFFA62C38BA47005B5C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAEEFFA82C38BA47005B5C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BLEApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7KFUXKP6D8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLEApp/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs bluetooth is that ok?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sandbox.BLEApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAEEFFA92C38BA47005B5C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BLEApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7KFUXKP6D8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLEApp/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs bluetooth is that ok?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sandbox.BLEApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAEEFFAB2C38BA47005B5C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sandbox.BLEAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLEApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BLEApp";
+			};
+			name = Debug;
+		};
+		AAEEFFAC2C38BA47005B5C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sandbox.BLEAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLEApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BLEApp";
+			};
+			name = Release;
+		};
+		AAEEFFAE2C38BA47005B5C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sandbox.BLEAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLEApp;
+			};
+			name = Debug;
+		};
+		AAEEFFAF2C38BA47005B5C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sandbox.BLEAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLEApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAEEFF7E2C38BA45005B5C94 /* Build configuration list for PBXProject "BLEApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEEFFA52C38BA47005B5C94 /* Debug */,
+				AAEEFFA62C38BA47005B5C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEEFFA72C38BA47005B5C94 /* Build configuration list for PBXNativeTarget "BLEApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEEFFA82C38BA47005B5C94 /* Debug */,
+				AAEEFFA92C38BA47005B5C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEEFFAA2C38BA47005B5C94 /* Build configuration list for PBXNativeTarget "BLEAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEEFFAB2C38BA47005B5C94 /* Debug */,
+				AAEEFFAC2C38BA47005B5C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEEFFAD2C38BA47005B5C94 /* Build configuration list for PBXNativeTarget "BLEAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEEFFAE2C38BA47005B5C94 /* Debug */,
+				AAEEFFAF2C38BA47005B5C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAEEFF7B2C38BA45005B5C94 /* Project object */;
+}
